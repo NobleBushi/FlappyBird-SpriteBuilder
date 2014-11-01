@@ -14,8 +14,8 @@
     CCNode *_ground2;
     NSArray *_grounds;
     
-    CCNode *_clouds1;
-    CCNode *_clouds2;
+    CCNode *_cloud1;
+    CCNode *_cloud2;
     NSArray *_clouds;
     
     CCNode *_bush1;
@@ -41,7 +41,7 @@
     self.userInteractionEnabled = TRUE;
     
     _grounds = @[_ground1, _ground2];
-    _clouds = @[_clouds1, _clouds2];
+    _clouds = @[_cloud1, _cloud2];
     _bushes = @[_bush1, _bush2];
     
     for (CCNode *ground in _grounds) {
