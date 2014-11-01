@@ -20,8 +20,10 @@
     timeSinceObsticle += delta; //delta is approx. 1/60th sec
     
     if (timeSinceObsticle > 2.0f)   // check to see if 2 seconds have passed
+    {
         [self addObstacle];         // add a new obsticle
-    timeSinceObsticle = 0.0f;       // then reset the timer
+        timeSinceObsticle = 0.0f;       // then reset the timer
+    }
 }
 
 // put new methods here
